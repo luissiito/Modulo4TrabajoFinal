@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,sBAAsB;EAClB,UAAU,EAAE,GAAG;EAEX,yBAAyC;IAD7C,8BAAO;MAEC,SAAS,EAAE,MAAM;EAGzB,8BAAO;IACH,KAAK,EAAE,IAAI;IACX,UAAU,EAAE,MAAM;IAClB,yBAAyC;MAH7C,8BAAO;QAIC,SAAS,EAAE,MAAM",
+"sources": ["../scss/CuadroDeDesarrollador.scss"],
+"names": [],
+"file": "CuadroDeDesarrollador.css"
+}

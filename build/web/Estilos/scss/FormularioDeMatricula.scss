@@ -1,0 +1,11 @@
+@import "Formulario.scss";
+
+.FormularioDeMatricula{
+  @extend %Formulario;
+  label{
+      &:first-of-type{
+          background-color: purple;
+          color: white;
+      }
+  }
+}

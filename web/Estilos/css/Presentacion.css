@@ -1,0 +1,22 @@
+.Presentacion {
+  grid-template-columns: 1fr; }
+  .Presentacion form {
+    justify-self: center;
+    width: 45%; }
+    @media (max-width: 1200px) {
+      .Presentacion form {
+        width: 57%; } }
+    @media (max-width: 1000px) {
+      .Presentacion form {
+        width: 65%; } }
+    @media (max-width: 900px) {
+      .Presentacion form {
+        width: 75%; } }
+    @media (max-width: 600px) {
+      .Presentacion form {
+        width: 85%; } }
+    @media (max-width: 350px) {
+      .Presentacion form {
+        width: 100%; } }
+
+/*# sourceMappingURL=Presentacion.css.map */

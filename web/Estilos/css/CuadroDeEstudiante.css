@@ -1,0 +1,77 @@
+.CuadroDeEstudiante {
+  border-color: gray;
+  border-radius: 4.5px;
+  border-style: solid;
+  border-width: 1px;
+  display: grid;
+  justify-items: center;
+  position: relative; }
+  .CuadroDeEstudiante form input[type="submit"] {
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.1em;
+    opacity: 0.75;
+    padding: 3px;
+    position: absolute;
+    right: 0;
+    top: 2px; }
+    .CuadroDeEstudiante form input[type="submit"]:hover {
+      cursor: pointer;
+      font-weight: bolder;
+      opacity: 1; }
+  .CuadroDeEstudiante :is(h4,h5) {
+    margin: 0;
+    padding: 0.3em;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word; }
+    .CuadroDeEstudiante :is(h4,h5):first-of-type {
+      font-size: 1.1em;
+      padding: 0.6em; }
+    .CuadroDeEstudiante :is(h4,h5):last-child {
+      color: purple; }
+    @media (max-width: 1200px) {
+      .CuadroDeEstudiante :is(h4,h5) {
+        font-size: 0.9em;
+        letter-spacing: 1px; } }
+    @media (max-width: 600px) {
+      .CuadroDeEstudiante :is(h4,h5) {
+        grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px), 32%));
+        font-size: 0.85em;
+        letter-spacing: 2px; } }
+    @media (max-width: 400px) {
+      .CuadroDeEstudiante :is(h4,h5) {
+        font-size: 1em; } }
+    @media (max-width: 350px) {
+      .CuadroDeEstudiante :is(h4,h5) {
+        font-family: "Arial";
+        font-size: 0.84em; } }
+  .CuadroDeEstudiante :is(h4) {
+    font-family: Arial, "Times New Roman";
+    opacity: 0.7; }
+  .CuadroDeEstudiante :is(h5) {
+    color: gray; }
+    .CuadroDeEstudiante :is(h5):first-of-type {
+      background-color: blue;
+      color: white; }
+  .CuadroDeEstudiante:hover {
+    /*background-color: #004177;*/
+    border-color: black;
+    cursor: pointer; }
+    .CuadroDeEstudiante:hover :is(h4,h5) {
+      /*color: brown;*/ }
+      .CuadroDeEstudiante:hover :is(h4,h5):last-child {
+        color: red; }
+    .CuadroDeEstudiante:hover :is(h5) {
+      /*color: black;*/ }
+      .CuadroDeEstudiante:hover :is(h5):first-of-type {
+        color: black;
+        background-color: yellow; }
+
+.CuadroDeEstudiante :is(h4,h5):last-child {
+  color: purple; }
+.CuadroDeEstudiante :is(h5):first-of-type {
+  background-color: blue; }
+
+/*# sourceMappingURL=CuadroDeEstudiante.css.map */

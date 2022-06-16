@@ -1,0 +1,16 @@
+.BotonSwitchCabecera{
+    background-color: lightcyan;
+    border-radius: 5px;
+    color: white;
+    left: 1px;
+    padding: 0.26em;
+    position: absolute;
+    top: 3px;
+    img{
+        max-height: 1.25em;
+        max-width: 1.25em;
+    }
+    &:hover{
+        background-color: unset;
+    }
+}

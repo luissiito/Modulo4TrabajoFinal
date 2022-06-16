@@ -1,0 +1,27 @@
+
+.Tabla{
+    background-color: lightblue;
+    width: 100%;
+    thead{
+        tr{
+            th{
+                background-color: purple;
+                color: white;
+                padding: 0.5em;
+            }            
+        }
+    }
+    tbody{
+        tr{
+            td{
+                padding: 0.5em;
+                text-align: center;
+            }   
+            &:hover{
+                color: white;
+                cursor: pointer;
+                background-color: gray;
+            }
+        }
+    }
+}

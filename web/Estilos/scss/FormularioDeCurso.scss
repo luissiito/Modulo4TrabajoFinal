@@ -1,0 +1,11 @@
+@import "Formulario.scss";
+
+.FormularioDeCurso{
+  @extend %Formulario;
+  label{
+      &:first-of-type{
+          background-color: green;
+          color: white;
+      }
+  }
+}

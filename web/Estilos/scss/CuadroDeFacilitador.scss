@@ -1,0 +1,15 @@
+@import "Cuadro.scss";
+
+.CuadroDeFacilitador{
+  @extend %Cuadro;
+  :is(h4,h5){
+        &:last-child{
+            color: green;
+        }
+    }
+    :is(h5){
+        &:first-of-type{
+            background-color: lightskyblue;
+        }
+    }
+}

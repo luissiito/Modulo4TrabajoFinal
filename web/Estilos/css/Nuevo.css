@@ -1,0 +1,40 @@
+.Nuevo {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 2px;
+  color: black;
+  display: block;
+  font-size: 1.1em;
+  font-weight: bolder;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5em;
+  padding: 0.4em;
+  width: 13em;
+  text-align: center;
+  text-decoration: none; }
+  .Nuevo:hover {
+    background-color: black;
+    border-color: yellow;
+    color: greenyellow; }
+  @media (max-width: 500px) {
+    .Nuevo {
+      font-size: 1.1em; } }
+  @media (max-width: 400px) {
+    .Nuevo {
+      font-size: 1em; } }
+  @media (max-width: 350px) {
+    .Nuevo {
+      font-size: 0.8em;
+      width: 93%; } }
+  @media (max-width: 200px) {
+    .Nuevo {
+      margin-bottom: 0.5em;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0.5em;
+      padding: 0.3em; } }
+
+/*# sourceMappingURL=Nuevo.css.map */

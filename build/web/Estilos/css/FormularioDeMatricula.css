@@ -1,0 +1,66 @@
+.FormularioDeMatricula {
+  border-color: gray;
+  border-radius: 4.5px;
+  border-style: solid;
+  border-width: 1px;
+  display: grid;
+  grid-row-gap: 2px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin-top: 0.7em;
+  padding-bottom: 1em; }
+  .FormularioDeMatricula label {
+    color: #004177;
+    width: 98%;
+    padding: 0.4em;
+    text-align: center; }
+    .FormularioDeMatricula label:first-of-type {
+      font-size: 1.1em;
+      padding: 0.6em; }
+  .FormularioDeMatricula input {
+    border-radius: 3px;
+    padding: 0.6em;
+    text-align: center; }
+  .FormularioDeMatricula input[type="text"] {
+    border-color: gray;
+    font-family: Arial, "Times New Roman";
+    font-weight: bolder;
+    width: 85%;
+    word-wrap: break-word; }
+    .FormularioDeMatricula input[type="text"]:focus {
+      border-color: red !important; }
+    .FormularioDeMatricula input[type="text"]:first-of-type {
+      background-color: black;
+      color: white;
+      cursor: no-drop;
+      opacity: 0.55; }
+    .FormularioDeMatricula input[type="text"].FrmDeRegistro:first-of-type {
+      background-color: unset;
+      color: black;
+      cursor: auto;
+      opacity: 1; }
+  .FormularioDeMatricula input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    font-size: 0.9em;
+    width: 80%; }
+    .FormularioDeMatricula input[type="submit"]:hover {
+      cursor: pointer; }
+    @media (max-width: 350px) {
+      .FormularioDeMatricula input[type="submit"] {
+        width: 95%; } }
+  .FormularioDeMatricula input[name="lastUpdate"] {
+    background-color: peru;
+    color: white;
+    cursor: no-drop; }
+    .FormularioDeMatricula input[name="lastUpdate"]:focus {
+      border-color: red !important; }
+    @media (max-width: 350px) {
+      .FormularioDeMatricula input[name="lastUpdate"] {
+        font-weight: lighter; } }
+
+.FormularioDeMatricula label:first-of-type {
+  background-color: purple;
+  color: white; }
+
+/*# sourceMappingURL=FormularioDeMatricula.css.map */

@@ -1,0 +1,16 @@
+.Tabla {
+  background-color: lightblue;
+  width: 100%; }
+  .Tabla thead tr th {
+    background-color: purple;
+    color: white;
+    padding: 0.5em; }
+  .Tabla tbody tr td {
+    padding: 0.5em;
+    text-align: center; }
+  .Tabla tbody tr:hover {
+    color: white;
+    cursor: pointer;
+    background-color: gray; }
+
+/*# sourceMappingURL=Tabla.css.map */

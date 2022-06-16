@@ -1,0 +1,71 @@
+@import "TamañosDePantallas.scss";
+body{
+    *{
+        font-family: Copperplate, Times, Arial, "Times New Roman";
+        overflow: hidden;
+        padding: 0;
+        &:hover{
+            backface-visibility: hidden;
+        }        
+    }
+    h1{
+        padding: 0.25em;
+        margin: 0;
+        text-align: center;
+        @media(max-width: $tamañoDePantalla600PX){
+            font-size: 1.1em;
+            word-break: break-word;
+            text-align: center;
+        }
+    }
+    h3{
+        margin: 0;
+        margin-bottom: 0.3em;
+        text-align: center;
+        p{
+            margin: 0;
+            @media(max-width: $tamañoDePantalla350PX){
+                font-size: 0.75em !important;
+                text-align: center;
+            }
+        }
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px),16%));
+        grid-row-gap: 0.5em;
+        @media(min-width: 1281px){
+            grid-template-columns: repeat(auto-fit, minmax(min(100px, 215px),18.5%));
+            grid-column-gap: 1.5em;
+        }
+        @media(max-width: $tamañoDePantalla1280PX){
+            grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px),19.1%));
+            grid-column-gap: 0.5em;
+        }
+        @media(max-width: $tamañoDePantalla900PX){
+            grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px),24%));
+        }
+        @media(max-width: $tamañoDePantalla800PX){
+            grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px),32%));
+        }
+        @media(max-width: $tamañoDePantalla700PX){
+            grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px),32%));
+        }
+        @media(max-width: $tamañoDePantalla600PX){
+            grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px),32%));
+            font-size: 0.85em;
+            letter-spacing: 2px;
+        }
+        @media(max-width: $tamañoDePantalla500PX){
+            grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px),49%));
+        }
+        @media(max-width: $tamañoDePantalla400PX){
+            grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px),48%));
+            font-size: 0.75em;
+        }
+        @media(max-width: $tamañoDePantalla350PX){
+            grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px),100%));
+            font-size: 0.75em;
+        }
+    }
+}

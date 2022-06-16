@@ -1,0 +1,17 @@
+@import "TamañosDePantallas.scss";
+.CuadroDeDesarrollador{
+    margin-top: 2em;
+    :is(h3){
+        @media(max-width: $tamañoDePantalla600PX){
+            font-size: 0.95em;
+        }
+    }
+    :is(h4){
+        color: gray;
+        text-align: center;
+        @media(max-width: $tamañoDePantalla600PX){
+            font-size: 0.85em;
+        }
+    }
+}
+

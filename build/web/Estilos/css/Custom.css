@@ -1,0 +1,64 @@
+body * {
+  font-family: Copperplate, Times, Arial, "Times New Roman";
+  overflow: hidden;
+  padding: 0; }
+  body *:hover {
+    backface-visibility: hidden; }
+body h1 {
+  padding: 0.25em;
+  margin: 0;
+  text-align: center; }
+  @media (max-width: 600px) {
+    body h1 {
+      font-size: 1.1em;
+      word-break: break-word;
+      text-align: center; } }
+body h3 {
+  margin: 0;
+  margin-bottom: 0.3em;
+  text-align: center; }
+  body h3 p {
+    margin: 0; }
+    @media (max-width: 350px) {
+      body h3 p {
+        font-size: 0.75em !important;
+        text-align: center; } }
+body main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px), 16%));
+  grid-row-gap: 0.5em; }
+  @media (min-width: 1281px) {
+    body main {
+      grid-template-columns: repeat(auto-fit, minmax(min(100px, 215px), 18.5%));
+      grid-column-gap: 1.5em; } }
+  @media (max-width: 1280px) {
+    body main {
+      grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px), 19.1%));
+      grid-column-gap: 0.5em; } }
+  @media (max-width: 900px) {
+    body main {
+      grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px), 24%)); } }
+  @media (max-width: 800px) {
+    body main {
+      grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px), 32%)); } }
+  @media (max-width: 700px) {
+    body main {
+      grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px), 32%)); } }
+  @media (max-width: 600px) {
+    body main {
+      grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px), 32%));
+      font-size: 0.85em;
+      letter-spacing: 2px; } }
+  @media (max-width: 500px) {
+    body main {
+      grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px), 49%)); } }
+  @media (max-width: 400px) {
+    body main {
+      grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px), 48%));
+      font-size: 0.75em; } }
+  @media (max-width: 350px) {
+    body main {
+      grid-template-columns: repeat(auto-fit, minmax(min(100px, 200px), 100%));
+      font-size: 0.75em; } }
+
+/*# sourceMappingURL=Custom.css.map */

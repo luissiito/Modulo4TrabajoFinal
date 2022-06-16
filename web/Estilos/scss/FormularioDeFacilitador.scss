@@ -1,0 +1,14 @@
+@import "Formulario.scss";
+
+.FormularioDeFacilitador{
+  @extend %Formulario;
+  label{
+      &:first-of-type{
+          background-color: lightskyblue;
+          color: white;
+      }
+  }
+  @media(max-width: $tamañoDePantalla1280PX){
+            grid-row-gap: 1px;
+        }
+}

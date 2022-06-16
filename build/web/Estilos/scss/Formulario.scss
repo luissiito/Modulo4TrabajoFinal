@@ -1,0 +1,78 @@
+@import "TamañosDePantallas.scss";
+
+%Formulario{
+    border-color: gray;
+    border-radius: 4.5px;
+    border-style: solid;
+    border-width: 1px;
+    display: grid;
+    grid-row-gap: 2px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 0.7em;
+    padding-bottom: 1em;
+    label{
+        color: #004177;
+        width: 98%;
+        padding: 0.4em;
+        text-align: center;
+        &:first-of-type{
+            font-size: 1.1em;
+            padding: 0.6em;
+        }
+    }
+    input{
+        border-radius: 3px;
+        padding: 0.6em;
+        text-align: center;
+    }
+    input[type="text"]{
+        border-color: gray;
+        font-family: Arial, "Times New Roman";
+        font-weight: bolder;
+        width: 85%;
+        word-wrap: break-word;
+        &:focus{
+            border-color: red !important;
+        }
+        &:first-of-type{
+            background-color: black;
+            color: white;
+            cursor: no-drop;
+            opacity: 0.55;
+        }
+        &.FrmDeRegistro{
+            &:first-of-type{
+            background-color: unset;
+            color: black;
+            cursor: auto;
+            opacity: 1;
+            }
+        }
+    }
+    input[type="submit"]{
+        background-color: #007bff;
+        color:white;
+        font-size: 0.9em;
+        width: 80%;
+        &:hover{
+            cursor: pointer;
+        }
+        @media(max-width: $tamañoDePantalla350PX){
+            width: 95%;
+        }
+    }
+    
+  input[name="lastUpdate"]{
+      background-color: peru;
+      color:white;
+      cursor: no-drop;
+      &:focus{
+          border-color: red !important;
+      }
+      @media(max-width: $tamañoDePantalla350PX){
+          font-weight: lighter;
+      }
+  }
+    
+}

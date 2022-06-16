@@ -1,0 +1,25 @@
+@import "TamañosDePantallas.scss";
+
+.Presentacion{
+    grid-template-columns: 1fr;
+    form{
+        justify-self: center;
+        width: 45%;
+        @media(max-width: $tamañoDePantalla1200PX){
+            width: 57%;
+        }
+        @media(max-width: $tamañoDePantalla1000PX){
+            width: 65%;
+        }
+        @media(max-width: $tamañoDePantalla900PX){
+            width: 75%;
+        }
+        @media(max-width: $tamañoDePantalla600PX){
+            width: 85%;
+        }
+        @media(max-width: $tamañoDePantalla350PX){
+            width: 100%;
+        }
+    }
+}
+
